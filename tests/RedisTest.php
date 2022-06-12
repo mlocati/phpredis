@@ -5401,7 +5401,7 @@ class Redis_Test extends TestSuite
 
             // Make sure we can scan for specific types
             foreach ($arr_keys as $str_type => $arr_vals) {
-                foreach ([NULL, 10] as $i_count) {
+                foreach ([0, 10] as $i_count) {
                     $arr_resp = [];
 
                     $it = NULL;
